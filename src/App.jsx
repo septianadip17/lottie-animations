@@ -8,15 +8,7 @@ const App = () => {
   return (
     <div className=" text-white">
       <div className=" justify-center items-center grid space-y-5 mt-52">
-        <p className=" text-center">
-          Extension Creator{" "}
-          <a
-            href="https://www.instagram.com/nandakaws/"
-            className=" duration-200 hover:text-purple-500"
-          >
-            NandaKaws
-          </a>
-        </p>
+        <p className=" text-center">Lottie Animations</p>
         <h1 className=" text-purple-500 text-5xl font-bold  ">
           <span className=" text-white">Lets</span>code!
         </h1>
