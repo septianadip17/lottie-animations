@@ -1,24 +1,15 @@
-import { useState } from "react";
-const App = () => {
-  const [count, setCount] = useState(0);
+import Lottie from "lottie-react";
+import Cloud from "./assets/animations/cloud.json";
 
-  const HandleClick = () => {
-    setCount(count + 1);
-  };
+const App = () => {
   return (
     <div className=" text-white">
       <div className=" justify-center items-center grid space-y-5 mt-52">
         <p className=" text-center">Lottie Animations</p>
+        <Lottie animationData={Cloud} />
         <h1 className=" text-purple-500 text-5xl font-bold  ">
           <span className=" text-white">Lets</span>code!
         </h1>
-        <button
-          onClick={HandleClick}
-          className=" rounded-lg font-bold text-xl bg-purple-500"
-        >
-          Click
-        </button>
-        <h1 className=" text-center font-bold  ">{count}</h1>
       </div>
     </div>
   );
