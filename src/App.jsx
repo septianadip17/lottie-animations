@@ -10,6 +10,7 @@ const App = () => {
         <h1 className=" text-purple-500 text-5xl font-bold  ">
           <span className=" text-white">Lets</span>code!
         </h1>
+        
       </div>
     </div>
   );
