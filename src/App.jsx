@@ -11,7 +11,14 @@ const App = () => {
         <h1 className=" text-purple-500 text-5xl font-bold  ">
           <span className=" text-white">Lets</span>code!
         </h1>
-        
+
+        <p className=" text-center">Vite + React</p>
+        <div>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            {" "}
+            Click me
+          </button>
+        </div>
       </div>
     </div>
   );
